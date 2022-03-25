@@ -17,5 +17,9 @@ spring.mail.properties.mail.smtp.starttls.enable=true
 spring.mail.properties.mail.smtp.starttls.required=true
 spring.mail.properties.mail.smtp.auth=true
 ```
-### 5. 실행하기
+### 5. 구글 보안 수준이 낮은 앱의 엑세스
+ - 주의할점은 2단계 인증이 되어있으면 안됨
+ - Google계정관리 - 보안 - 보안 수준이 낮은 앱의 엑세스 - 사용설정하기
+
+### 6. 실행하기
 http://localhost:8080/sendmail
